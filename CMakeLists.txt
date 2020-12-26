@@ -44,7 +44,8 @@ if(NOT catch2_POPULATED)
     target_include_directories(catch2 INTERFACE ${catch2_SOURCE_DIR}/single_include)
 endif()
 
-get_filename_component(CINDER_PATH "${CMAKE_CURRENT_SOURCE_DIR}/../../" ABSOLUTE)
+# Make sure you change this !!!!!!! 
+get_filename_component(CINDER_PATH "/Users/SirJerrick/Desktop/CS126/C++/Cinder" ABSOLUTE)
 get_filename_component(APP_PATH "${CMAKE_CURRENT_SOURCE_DIR}/" ABSOLUTE)
 
 include("${CINDER_PATH}/proj/cmake/modules/cinderMakeApp.cmake")

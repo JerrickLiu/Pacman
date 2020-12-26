@@ -1,11 +1,15 @@
 # Pacman
 A version of Pacman made using Cinder and C++
 
+## Demo 
+![](pacman.gif)
+
 ### Dependencies
 The only dependency required is Cinder. If you're on Windows, you may need Microsoft Visual Studio 2017 in order to be compatible with Cinder. 
 
 ### Installing
-To install Cinder, visit https://libcinder.org/download and download it for your OS. Once downloaded, clone this repo and place it in the directory that contains Cinder. So for example, you'd have something like ```Cinder/this_project```. 
+To install Cinder, visit https://libcinder.org/download and download it for your OS. Once downloaded, clone this repo 
+and go into the ```CMakeLists.txt``` file and change ```line 48``` to point to location where you have Cinder downloaded 
 
 Everything else will be handled by the CMake file. Once you clone the repo, make sure to load the CMake file. 
 

@@ -2,7 +2,6 @@
 #include "cinder/gl/gl.h"
 #include "cinder/app/App.h"
 #include "cinder/gl/gl.h"
-#include "../../../include/glm/glm.hpp"
 
 namespace PacmanGame {
 

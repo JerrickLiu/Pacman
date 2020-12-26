@@ -3,7 +3,6 @@
 #include "cinder/gl/gl.h"
 #include "cinder/app/App.h"
 #include "cinder/gl/gl.h"
-#include "../../../include/glm/glm.hpp"
 #include "wall.h"
 #include "snack.h"
 #include "power_up.h"

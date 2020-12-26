@@ -2,7 +2,6 @@
 #include "cinder/gl/gl.h"
 #include "cinder/app/App.h"
 #include "cinder/gl/gl.h"
-#include "../../../include/glm/glm.hpp"
 #include "pacman.h"
 #include "map.h"
 #include "ghost.h"
